@@ -13,7 +13,7 @@ public class ServiceB implements IServiceB {
 	public int minus(int left, int right) {
 		int result = left - right;
 
-		System.out.println("method=minus, left="+left + ", right=" + right + ", result=" + result);
+		System.out.println("class method=minus, left="+left + ", right=" + right + ", result=" + result);
 		
 		return result;
 	}
