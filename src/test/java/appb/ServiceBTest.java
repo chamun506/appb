@@ -10,9 +10,9 @@ public class ServiceBTest {
 	public void testMinus() {
 		IServiceB serviceB = new ServiceB();
 		
-		int result = serviceB.minus(20, 5);
+		int res = serviceB.minus(20, 5);
 		
-		assertEquals(15, result);
+		assertEquals(15, res);
 	}
 
 }
